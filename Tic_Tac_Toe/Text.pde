@@ -4,7 +4,7 @@ void Text() {
   color purple = #B703FF;
   textAlign (RIGHT, CENTER);
   println ("Before textDraw:", purple, width*1/3, height*1/12);
-  textDraw(purple, width*1/3, height*1/12);
+  text(purple, width*1/3, height*1/12);
   text(easy, 0, 0, width*1/3, height*1/12); 
   fill(255); 
 

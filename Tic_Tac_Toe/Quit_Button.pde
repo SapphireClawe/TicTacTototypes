@@ -2,7 +2,7 @@ color purple = #FF03F3;
 color blue = #68D0F2;
 color regularButton = purple;
 color hoverOverButton = blue;
-String title= "Exit";
+String quit= "Exit";
 PFont titleFont;
 
 void quitButtonSetup() {
@@ -23,7 +23,7 @@ void quitButtonDraw() {
   fill(#68D0F2); 
   textAlign (CENTER, CENTER); 
   textFont(titleFont, 15); 
-  text(title, width*0/16, height*0/16, width*1/16, height*1/16);
+  text(quit, width*0/16, height*0/16, width*1/16, height*1/16);
   fill(255); 
 }
 
