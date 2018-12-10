@@ -22,6 +22,6 @@ void draw() {
 
 void mouseClicked() {
   quitButtonMouseClicked();
-  xoButtonDraw();
+  xoButtonDrawMouseClicked();
   println("Position:", position, "Count:", count);
 }
