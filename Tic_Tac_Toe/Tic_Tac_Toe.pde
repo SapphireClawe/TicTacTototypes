@@ -5,7 +5,7 @@ void setup() {
   //println("Starting of Console"); // If you cannot see this, the find another way to see the list on the program
 
   background(255);
-
+  screenSizeChecker();
   textSetup();
   GUI_Design();
   quitButtonSetup();
